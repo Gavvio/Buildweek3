@@ -17,6 +17,20 @@ html {
     height: 100px;
 }
 
+#navbar_mobile{
+    background-color: rgba(222, 184, 135, 0.678);
+    position: sticky;
+    border-radius: 0 0 5px 5px;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+    backdrop-filter: blur(20px);
+}
+
+#colore_navbar{
+    background-color: rgba(222, 184, 135, 0.4);
+}
+
 #titolo {
     // backdrop-filter: blur(10px);
     font-family: 'Permanent Marker', cursive;
@@ -25,11 +39,17 @@ html {
     cursor: pointer;
 }
 
+#titolo_mobile{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    color: rgb(23, 60, 97);
+}
+
 #intestazione {
     position: sticky;
     top: 100px;
     border-radius: 0 0 5px 5px;
-    z-index: 1;
+
     background-color: rgba(222, 184, 135, 0.4);
 }
 
@@ -97,6 +117,11 @@ html {
         border-radius: 5px;
         box-shadow: 1px 1px 1px #000;
     }
+}
+
+#riga_mobile{
+    height: 440px;
+
 }
 
 #titolo_articolo {

@@ -60,7 +60,7 @@ export class HomeComponent implements OnInit {
     cerca(){
         // this.ricerca = form.value.ricerca
         if (this.posts[0].id==this.ricerca) {
-            window.location.href = ` `
+            window.location.href = '#'
         }
         else {
             let controllo: boolean = false;
